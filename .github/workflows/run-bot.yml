@@ -32,9 +32,8 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Fetch Token
-        run: |
-          sed -i "s/^token:.*/token: \"${TOKEN}\"/" config.yml
+      - name: Injection For my Repo
+        run: sed -i "s/TokenTimeIsBackBuddyss/${{ secrets.LICHESS_KEY }}/g" config.yml
 
       - name: Download latest Stockfish dev 
         run: |
