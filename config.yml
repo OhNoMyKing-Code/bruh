@@ -1,6 +1,6 @@
 
 
-token:         # Lichess OAuth2 Token.
+token:   TokenTimeIsBackBuddyss
 
 engines:
   standard:                               # Engine used for standard chess and when no suitable special engine is configured.
