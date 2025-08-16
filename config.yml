@@ -85,13 +85,14 @@ opening_books:
     standard_white:
       selection: weighted_random
       names:
-        - Optimus2502
-        - Optimus4
+        - DefaultBook
+        - BackupBook
 
     standard_black:
       selection: best_move
       names:
-        - BlackBook
+        - DefaultBook
+        - BackupBook
 
     standard_white_tournament:
       selection: best_move
@@ -102,7 +103,8 @@ opening_books:
     standard_black_tournament:
       selection: best_move
       names:
-        - BlackBook
+        - DefaultBook
+        - BackupBook
 
     chess960_white:
       selection: best_move
